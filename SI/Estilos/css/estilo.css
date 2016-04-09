@@ -1,0 +1,95 @@
+body {
+	background: white url(../imagenes/in.jpg);
+}
+.add_user{
+	background: #D6D6C2;
+}
+
+.ti{
+	color: #0B2161;
+	font-size: 300%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.ti2{
+	color: #0B2161;
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.formulario {
+	 text-align: left;
+	 width: 350px;
+	 margin: 0;
+	 padding: 0;
+	 margin: 0 auto;
+	 font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
+}
+.Work{
+	position: relative; 
+	margin-top: 2em;
+	text-align: center;
+	font-family: "Trebuchet MS", "Myriad Pro", Arial, sans-serif;
+}
+
+.Marco {
+	right: 0px;
+	min-height: 450px;	
+	margin: 0px auto;	
+	position: relative;	
+}
+
+.MarcoInicio{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	padding: 0px 6% 0px 6%;
+	margin: 0 0 0px 0;
+	background:#CECEB5;
+	border: 1px solid black;
+	box-shadow: 0pt 2px 5px, 0px 0px 8px 5px #D6D6C2 inset;
+	border-radius: 5px;
+}
+
+
+
+.Footer{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 2em 0;
+	text-align: center;
+	color:black;
+}
+
+
+.Footer-formInput,
+.Footer-textarea{
+	width: 50%;
+	background: #828282;
+	color: white;
+	border: none;
+	display: block;
+	border-radius: 2em;
+	padding: .5em;
+	margin:  0 auto 1em;
+}
+
+
+
+.Footer-button{
+	background: #4D86A2;
+	border-radius: 1em;
+	border: none;
+	color: white ;
+	padding: .5em 1em;
+}
+
+
+@media screen and (max-width: 767px){
+	.Footer-from{
+		display:block;
+	}
+
