@@ -1,0 +1,241 @@
+.u-title{
+	border-bottom: 2px dashed white;
+	color: white;
+	font-weight: normal;
+	font-size: 24px;
+	padding-bottom .5em: 
+	text-align: center;
+}
+
+
+	
+.MainMenu{
+	background: grey;
+	text-align: center;
+	height: 3.75em;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top:0; 
+}
+
+.MainMenu-list{
+	margin: 0;
+	padding: 0;
+
+}
+
+.MainMenu-item{
+	display: inline-block;
+
+
+}
+
+.MainMenu-link{
+	color: white;
+	text-decoration: none;
+	line-height: 3.75em;
+	margin-right: 1.5em;
+
+}
+
+.Header{
+	margin-top: 3.75em;
+	background-image: url('../images/deporte.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 1.5em 0;
+}
+
+.Header-imageContainer{
+	margin:0;
+}
+
+
+
+
+.Header-image{
+	border: 5px solid grey;
+	border-radius: 50%;
+	transition: all 0.5s ease;
+	-webkit-transition:all 0.5s ease;	
+}
+
+
+.Header-image:hover
+{
+	transform: scale(1.1) rotate(-360deg);
+	-webkit-transform: scale(1.1) rotate(-360deg);
+}
+
+
+.Header-name,
+.Header-link{
+	color:black;
+}
+
+.Header-link{
+	font-size: 2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.Header-name{
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0;
+
+}
+
+.Profile{
+
+	background:grey;
+	text-align: center;
+}
+
+.Profile-link{
+	
+	background: green;
+	border-radius: 2em;
+	color: white;
+	margin-left: .5em;
+	margin-right: .5em;
+	padding: .5em 1em;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 1em;
+}
+
+.Work{
+	position: relative; 
+	margin-top: 2em;
+	text-align: center;
+	font-family: "Trebuchet MS", "Myriad Pro", Arial, sans-serif;
+}
+
+.Work-item{
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+}
+
+.Work-imageContainer{
+	font-size: 1em;
+	background: grey;
+	text-align: center;
+	margin: 0;
+}
+
+.Work-description{
+	font-size: 1.1em;
+	color:black	;
+	font-style: italic;
+}
+
+ 
+.Section{
+	text-align: center;
+	background-image: url('../images/rojo1.jpg');
+}
+.Footer{
+	/*background-image: url('../images/rojo2.jpg');*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 2em 0;
+	text-align: center;
+	color:black;
+}
+
+.Footer-form{
+	text-align: center;
+	display: inline-block;
+
+}
+
+.Footer-title{
+	color: black;
+}
+
+.Footer-formInput,
+.Footer-textarea{
+	background: black;
+	color: white;
+	border: none;
+	display: block;
+	border-radius: 2em;
+	padding: .5em;
+	margin:  0 auto 1em;
+}
+
+.Footer-textarea{
+	resize: none;
+}
+
+.Footer-button{
+	background: #0B3B39;
+	border-radius: 1em;
+	border: none;
+	color: white ;
+	padding: .5em 1em;
+}
+
+
+
+@media screen and (max-width: 480px){
+	.Profile-link{
+		display: block;
+	}
+}
+@media screen and (max-width: 767px){
+	.Footer-from{
+		display:block;
+	}
+  .Footer-formInput,
+  .footer-textarea{
+  	width: 90%;
+  }
+}
+
+.rslides{
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.rslides li{
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child{
+	position: relative;
+	display: none;
+	float: left;
+}
+
+.rslides img{
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}
+
+.Slider{
+	background: black;
+}
+
+.Slider-container{
+	max-width: 1024px;
+	margin: 0 auto;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <link href="css/materialize.css" type="text/css" rel="stylesheet">
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Ingresar Productos</title>
+</head>
+<body class="grey lighten-4">
+
+<section  class="teal lighten-4 col s12 m6">
+        <div class="section">
+        	<div class="container">
+         		<div>
+      				<h1>SPORT PERU</h1>
+        			<h5>Ingresado de Productos.</h5>
+      			</div>
+      		</div>
+      	</div>
+</section>
+
+	<div class="navbar navbar-default teal grey lighten-2">                           
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+                                
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a data-target="#" class="dropdown-toggle" data-toggle="dropdown">Inicio <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                        <li><a href="Add_product.html">Agregar Productos</a></li>
+                        <li><a href="verproductos.php">Listado De Producto</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Visor de Imagenes</li>
+                        <li><a href="visualizar.html">Vizualizar prendas</a></li>
+            </ul>
+                        </li>
+        </ul>
+                <form class="navbar-form navbar-right">
+                    <input type="text" class="form-control col-lg-8" placeholder="Buscar">
+                </form>
+    </div>
+</div>
+
+	
+		<br></br>
+		<section class="row">
+				<form   action="insertar.php" method="post" name="form" placeholder="Nombre del Usuario"/>
+					<div class="row">
+						<div class="col s6">		
+							
+							<label>Codigo:</label>
+								<input type="text" name="cod"placeholder="Codigo"/>					
+							<label>Nombre Producto:</label>
+								<input type="text" name="producto"placeholder="Nombre del Producto"/>
+							<label>Cantidad:</label>
+								<input type="text" name="cantidad"placeholder="Unidad, Docena, Cuarto o Par"/>
+							<label>Talla o Medida:</label>
+								<input type="text" name="talla"placeholder="S, M, L, XL o Numero"/>
+							<label>Marca:</label>
+								<input type="text" name="marca"placeholder="Puma, Nike, Adidas, Umbro"/> <br></br>
+							<label>Precio:</label>
+								<input type="text" name="precio"placeholder="Precio en soles"/>
+						
+						</div>
+					</div>	
+						
+						<div class="right">
+							<input class="waves-effect waves-light btn  green lighten-2" type="submit" value="Procesando"/>	
+						</div>
+						<div>
+							<a class="waves-effect waves-light btn red lighten-3" href="index.html">Atras</a>
+						</div>					
+				</form>	
+		</section>					
+
+
+       
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+      <script src="//fezvrasta.github.io/snackbarjs/dist/snackbar.min.js"></script>
+
+</body>
+</html>
